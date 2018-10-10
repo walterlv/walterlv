@@ -1,3 +1,18 @@
-baseURL = "https://walterlv.com/"
-languageCode = "en-us"
+baseURL = "http://localhost:1313"
+languageCode = "en"
 title = "walterlv"
+theme = "hugo-nuo"
+enableRobotsTXT = true
+PygmentsCodeFences = true
+canonifyurls = true
+
+logo = "/static/img/logo.png"
+icon = "/favicon.ico"
+
+[params]
+  author = "walterlv"
+  avatar = "/static/img/logo.png"
+  logo = "/static/img/logo.png"
+  icon = "/favicon.ico"
+  description = "Windows 10 App Developer"
+  paginate = 24
