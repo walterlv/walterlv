@@ -371,6 +371,7 @@ body>header {
 
 body>header>div {
     width: 100%;
+    max-width: 1200px;
     margin: 0 auto;
     position: relative;
     overflow: hidden;
@@ -397,13 +398,13 @@ body>header>div {
 body>header a {
     display: block;
     color: #fff;
-    line-height: 2.5rem;
+    line-height: 3rem;
 }
 
 .navbar {
     float: right;
-    width: 2.5em;
-    height: 2.5em;
+    width: 3em;
+    height: 3em;
     right: 0;
 }
 
@@ -457,6 +458,21 @@ header nav {
     }
 }
 
+#text-logo {
+    font-weight: 800;
+    padding: 0 1.5rem
+}
+
+#text-logo:hover {
+    background: #2073a4;
+}
+
+@media only screen and (min-width: 768px) {
+    #text-logo {
+        padding: 0 1.5rem 0 0
+    }
+}
+
 header nav ul li a {
     padding: 0;
 }
@@ -468,8 +484,7 @@ header nav ul li a {
 }
 
 header nav ul li a:hover {
-    background: #dd2c11;
-    color: #e9cd4c
+    background: #2f8ec5;
 }
 
 .shownav {
@@ -512,6 +527,7 @@ header nav ul li a:hover {
 
 #container {
     width: 100%;
+    max-width: 1200px;
     margin: 0 auto;
     overflow: hidden;
 }

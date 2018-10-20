@@ -4,7 +4,7 @@
   <div class="navbar"><a class="navbutton navmobile" href="#" title="menu"></a></div>
   <nav class="animated">
     <ul>
-      <li><a href="{{ .Site.BaseURL }}" title="{{ .Site.Params.Description }}">{{ .Site.Title }}</a></li>
+      <li><a id="text-logo" href="{{ .Site.BaseURL }}" title="{{ .Site.Params.Description }}">{{ .Site.Title }}</a></li>
       {{ range .Site.Menus.main }}
       <li><a href="{{ .URL }}">{{ .Name }}</a></li>
       {{ end }}
