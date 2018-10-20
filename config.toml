@@ -21,8 +21,8 @@ pygmentsUseClasses = true
 [Params]
   AuthorHomepage = "http://blog.coderzh.com"
   BottomIntroduce = "Introduce1 <br/> Introduce2"
-  Description = ""
-  Subtitle = "subtitle"
+  Description = "吕毅的博客 walterlv's blog"
+  About = "Windows 10 Developer"
   Weibo = "coderzh"
   WeiboID = 1816308191
   Twitter = "coderzh"
