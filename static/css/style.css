@@ -398,7 +398,7 @@ body>header>div {
 body>header a {
     display: block;
     color: #fff;
-    line-height: 3rem;
+    line-height: 3em;
 }
 
 .navbar {
@@ -460,7 +460,7 @@ header nav {
 
 #text-logo {
     font-weight: 800;
-    padding: 0 1.5rem
+    padding: 0 1.5em
 }
 
 #text-logo:hover {
@@ -469,7 +469,7 @@ header nav {
 
 @media only screen and (min-width: 768px) {
     #text-logo {
-        padding: 0 1.5rem 0 0
+        padding: 0 1.5em 0 0
     }
 }
 
@@ -817,14 +817,23 @@ header nav ul li a:hover {
 }
 
 article header.article-info>h1 {
-    padding: .2em 3%;
+    padding: .2em .8em;
     font-size: 170%;
     line-height: 1.5;
     word-wrap: break-word;
     word-break: normal;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    border-left: 5px solid #2073a4
+    background: #2073a4
+}
+
+@media only screen and (min-width: 768px) {
+    article header.article-info>h1 {
+        font-size: 200%;
+        padding-top: .3em;
+        border-left: 5px solid #2073a4;
+        background: inherit
+    }
 }
 
 @media only screen and (min-width: 1024px) {
