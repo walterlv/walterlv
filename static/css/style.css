@@ -362,12 +362,10 @@ body>header {
     box-shadow: 2px 4px 5px rgba(3, 3, 3, 0.2);
     background: #2073a4;
     color: #fff;
-    padding: 1em 0 .8em;
 }
 
 @media only screen and (min-width: 1024px) {
     body>header {
-        padding: 1.8em 0 1.5em
     }
 }
 
@@ -386,7 +384,8 @@ body>header>div {
 
 body>header a {
     display: block;
-    color: #fff
+    color: #fff;
+    line-height: 2.5rem;
 }
 
 .navbar {
@@ -417,7 +416,6 @@ body>header a {
 header nav {
     width: 100%;
     font-size: 112.5%;
-    padding-top: .5em;
     max-height: .01em;
     -webkit-transition: max-height 1s ease-out;
     -moz-transition: max-height 1s ease-out;
@@ -434,16 +432,11 @@ header nav {
 
 @media only screen and (min-width: 1024px) {
     header nav {
-        float: right;
-        width: auto;
-        margin-top: 1em;
-        max-height: none
     }
 }
 
 @media only screen and (min-width: 1024px) {
     header nav ul {
-        float: right
     }
 }
 
