@@ -460,7 +460,7 @@ header nav {
 
 #text-logo {
     font-weight: 800;
-    padding: 0 1.5em
+    padding: 0 1.3em
 }
 
 #text-logo:hover {
@@ -824,7 +824,9 @@ article header.article-info>h1 {
     word-break: normal;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    background: #2073a4
+    background: #2073a4;
+    color: white;
+    font-weight: 300
 }
 
 @media only screen and (min-width: 768px) {
@@ -832,7 +834,9 @@ article header.article-info>h1 {
         font-size: 200%;
         padding-top: .3em;
         border-left: 5px solid #2073a4;
-        background: inherit
+        background: inherit;
+        color: #2073a4;
+        font-weight: inherit
     }
 }
 
