@@ -54,8 +54,8 @@ pygmentsUseClasses = true
 
 [Menu]
   [[Menu.Main]]
-    Name = "首页"
-    URL = "/"
+    Name = "朋友"
+    URL = "/friends"
     Weight = 1
   [[Menu.Main]]
     Name = "关于"
