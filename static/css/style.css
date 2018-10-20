@@ -370,15 +370,27 @@ body>header {
 }
 
 body>header>div {
-    width: 95%;
+    width: 100%;
     margin: 0 auto;
     position: relative;
     overflow: hidden;
 }
 
+@media only screen and (min-width: 768px) {
+    body>header>div {
+        width: 96%
+    }
+}
+
 @media only screen and (min-width: 1024px) {
     body>header>div {
-        width: 93%
+        width: 94%
+    }
+}
+
+@media only screen and (min-width: 1560px) {
+    body>header>div {
+        width: 82%
     }
 }
 
@@ -389,11 +401,10 @@ body>header a {
 }
 
 .navbar {
-    position: absolute;
-    width: 2em;
+    float: right;
+    width: 2.5em;
+    height: 2.5em;
     right: 0;
-    top: 1em;
-    padding: .5em;
 }
 
 @media only screen and (min-width: 1024px) {
@@ -447,12 +458,12 @@ header nav {
 }
 
 header nav ul li a {
-    padding: .2em 0 .2em 1em;
+    padding: 0;
 }
 
 @media only screen and (min-width: 1024px) {
     header nav ul li a {
-        padding: .2em 1.5em
+        padding: 0 1.5em
     }
 }
 
@@ -500,7 +511,7 @@ header nav ul li a:hover {
 /* index layout */
 
 #container {
-    width: 95%;
+    width: 100%;
     margin: 0 auto;
     overflow: hidden;
 }
@@ -524,8 +535,14 @@ header nav ul li a:hover {
 }
 
 #main {
-    margin: 1em 0 0;
+    margin: 0;
     line-height: 1.8;
+}
+
+@media only screen and (min-width: 768px) {
+    #main {
+        margin: 1em 0 0;
+    }
 }
 
 @media only screen and (min-width: 1024px) {
