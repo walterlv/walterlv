@@ -810,10 +810,8 @@ header nav ul li a:hover {
     color: #2073a4
 }
 
-@media only screen and (min-width: 768px) {
-    article header.article-info {
-        border-bottom: 1px solid #dbdbdb
-    }
+article header.article-info {
+    border-bottom: 1px solid #e3e3e3
 }
 
 article header.article-info>h1 {
@@ -847,40 +845,18 @@ article header.article-info>h1 {
     }
 }
 
-article header.article-info>p.article-author {
-    padding: .3em 4% .3em 0;
-    text-align: right;
-    border-bottom: 1px solid #dbdbdb;
-}
-
-@media only screen and (min-width: 768px) {
-    article header.article-info>p.article-author {
-        float: right;
-        border-bottom: none
-    }
-}
-
 article header.article-info>p.article-time {
     padding-top: .5em;
     font-size: .8em;
-    text-align: center;
+    padding: 0.5em 0 0 1.7em;
+
 }
 
 @media only screen and (min-width: 768px) {
     article header.article-info>p.article-time {
-        float: right;
-        margin-right: 1em;
-        padding-top: .1em;
-        font-size: .9em
+        font-size: .9em;
+        padding: 0.5em 0 0 2.1em;
     }
-}
-
-article header.article-info>p.article-time:before {
-    font-family: "FontAwesome";
-    font-size: 130%;
-    content: "\f017";
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale
 }
 
 article .article-content {
@@ -925,7 +901,8 @@ article .article-content h1>code, article .article-content h2>code, article .art
 }
 
 article .article-content hr {
-    border: 1px solid #dbdbdb
+    border: solid #e3e3e3;
+    border-width: 1px 0 0 0;
 }
 
 article .article-content strong, article .article-content em {
