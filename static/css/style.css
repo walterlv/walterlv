@@ -389,83 +389,6 @@ body>header a {
     color: #fff
 }
 
-#imglogo {
-    float: left;
-    width: 4em;
-    height: 4em;
-}
-
-@media only screen and (min-width: 768px) {
-    #imglogo {
-        width: 5em
-    }
-}
-
-@media only screen and (min-width: 1024px) {
-    #imglogo {
-        width: 5.5em
-    }
-}
-
-#imglogo img {
-    width: 4em;
-}
-
-@media only screen and (min-width: 768px) {
-    #imglogo img {
-        width: 5em
-    }
-}
-
-@media only screen and (min-width: 1024px) {
-    #imglogo img {
-        width: 5.5em
-    }
-}
-
-#textlogo {
-    float: left;
-    width: 75%;
-    margin-left: .5em;
-}
-
-#textlogo h1.site-name {
-    width: 86%;
-    font-size: 200%;
-    line-height: 1.5;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-}
-
-@media only screen and (min-width: 768px) {
-    #textlogo h1.site-name {
-        font-size: 240%
-    }
-}
-
-@media only screen and (min-width: 1024px) {
-    #textlogo h1.site-name {
-        font-size: 280%
-    }
-}
-
-#textlogo h2.blog-motto {
-    font-size: .7em;
-    font-weight: normal;
-}
-
-@media only screen and (min-width: 768px) {
-    #textlogo h2.blog-motto {
-        font-size: 100%
-    }
-}
-
-@media only screen and (min-width: 1024px) {
-    #textlogo h2.blog-motto {
-        font-size: 110%
-    }
-}
-
 .navbar {
     position: absolute;
     width: 2em;
@@ -492,7 +415,6 @@ body>header a {
 }
 
 header nav {
-    float: left;
     width: 100%;
     font-size: 112.5%;
     padding-top: .5em;
