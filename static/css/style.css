@@ -564,7 +564,7 @@ header nav ul li a:hover {
 @media only screen and (min-width: 1024px) {
     #main {
         margin: 2em 0 0;
-        width: 75%;
+        width: calc(97% - 16em);
         float: left;
         -webkit-transition: margin 0.5s ease-out;
         -moz-transition: margin 0.5s ease-out;
@@ -1597,16 +1597,19 @@ section.comment {
 #asidepart {
     background: #fafafa;
     margin: 1em 0 0;
-    padding: .5em 2% 1em;
 }
 
 @media only screen and (min-width: 1024px) {
     #asidepart {
         position: relative;
         float: left;
-        width: 18%;
+        width: 16em;
         margin: 2em 0 0 3%
     }
+}
+
+img#award-logo {
+    width: 100%;
 }
 
 .asidetitle {
