@@ -16,6 +16,19 @@ body {
     background: #fff
 }
 
+.desktop-only {
+    display: none;
+}
+
+@media only screen and (min-width: 768px) {
+    .mobile-only {
+        display: none;
+    }
+    .desktop-only {
+        display: inherit;
+    }
+}
+
 ol, ul {
     list-style: none
 }
@@ -365,8 +378,7 @@ body>header {
 }
 
 @media only screen and (min-width: 1024px) {
-    body>header {
-    }
+    body>header {}
 }
 
 body>header>div {
@@ -443,13 +455,11 @@ header nav {
 }
 
 @media only screen and (min-width: 1024px) {
-    header nav {
-    }
+    header nav {}
 }
 
 @media only screen and (min-width: 1024px) {
-    header nav ul {
-    }
+    header nav ul {}
 }
 
 @media only screen and (min-width: 1024px) {
@@ -849,7 +859,15 @@ article header.article-info>p.article-time {
     padding-top: .5em;
     font-size: .8em;
     padding: 0.5em 0 0 1.7em;
+}
 
+article header.article-info>p.article-time:before {
+    font-family: "FontAwesome";
+    font-size: 130%;
+    content: "\f017";
+    margin-right: .2em;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale
 }
 
 @media only screen and (min-width: 768px) {
@@ -1608,8 +1626,25 @@ section.comment {
     }
 }
 
-img#award-logo {
+.awardpart {
     width: 100%;
+}
+
+#award-logo {
+    width: 100%;
+}
+
+@media only screen and (min-width: 768px) {
+    .awardpart {
+        width: 50%;
+        float: left;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .awardpart {
+        width: 100%;
+    }
 }
 
 .asidetitle {
@@ -1662,22 +1697,23 @@ img#award-logo {
 }
 
 .tagslist {
-    margin: 1em 0 0;
+    width: 90%;
+    margin: 1em auto;
 }
 
 @media only screen and (min-width: 768px) {
     .tagslist {
         width: 45%;
         float: left;
-        margin: 0 5% 0 0
+        margin: 0 2%;
     }
 }
 
 @media only screen and (min-width: 1024px) {
     .tagslist {
-        width: 100%;
+        width: 90%;
         float: none;
-        margin: 1em 0 0
+        margin: 1em auto;
     }
 }
 
@@ -1704,12 +1740,14 @@ img#award-logo {
 .rsspart {
     background: #2073a4;
     width: 100%;
+    float: none;
+    margin: 1em 0 0
 }
 
 @media only screen and (min-width: 768px) {
     .rsspart {
         float: left;
-        width: 45%;
+        width: 50%;
         margin: 0 5% 0 0
     }
 }
@@ -1803,19 +1841,24 @@ img#award-logo {
     }
 }
 
+.tagcloudlist {
+    width: 90%;
+    margin: 1em auto;
+}
+
 @media only screen and (min-width: 768px) {
     .tagcloudlist {
         width: 45%;
         float: left;
-        margin: 0 5% 0 0
+        margin: 0 2%
     }
 }
 
 @media only screen and (min-width: 1024px) {
     .tagcloudlist {
-        width: 100%;
+        width: 90%;
         float: none;
-        margin: 1em 0 0
+        margin: 1em auto;
     }
 }
 

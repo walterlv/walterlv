@@ -1,9 +1,12 @@
 <header class="article-info clearfix">
   <h1 itemprop="name">{{ .Title }}</h1>
-  <p class="article-time">
+  <p class="article-time mobile-only">
+    <time datetime="{{ .Date }}" itemprop="datePublished">{{ .Date.Format .Site.Params.DateFormat }}</time>
+  </p>
+  <p class="article-time desktop-only">
     {{ if .PublishDate }}
-      <time datetime="{{ .Date }}" itemprop="datePublished">{{ .Date.Format .Site.Params.DateFormat }}</time>
-      - <time datetime="{{ .PublishDate }}" itemprop="dateUpdated">{{ .Date.Format .Site.Params.DateFormat }}</time>
+      发布于 <time datetime="{{ .Date }}" itemprop="datePublished">{{ .Date.Format .Site.Params.DateFormat }}</time>
+      更新于 <time datetime="{{ .PublishDate }}" itemprop="dateUpdated">{{ .Date.Format .Site.Params.DateFormat }}</time>
     {{ else }}
       <time datetime="{{ .Date }}" itemprop="datePublished">{{ .Date.Format .Site.Params.DateFormat }}</time>
     {{ end }}

@@ -52,7 +52,7 @@ pygmentsUseClasses = true
     Rss = "RSS 订阅"
     TableOfContents = "文章目录"
 
-  [Params.Award]
+  [Params.Profile]
     Image = "/img/mvp.png"
     Alt = "Microsoft MVP"
     Url = "https://mvp.microsoft.com/en-us/PublicProfile/5003225"
