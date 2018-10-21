@@ -1626,23 +1626,23 @@ section.comment {
     }
 }
 
-.profilepart {
+.profilepart, .awardpart {
     width: 100%;
 }
 
-#profile-logo {
+#award-logo {
     width: 100%;
 }
 
 @media only screen and (min-width: 768px) {
-    .profilepart {
+    .profilepart, .awardpart {
         width: 50%;
         float: left;
     }
 }
 
 @media only screen and (min-width: 1024px) {
-    .profilepart {
+    .profilepart, .awardpart {
         width: 100%;
     }
 }
