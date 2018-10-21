@@ -1626,7 +1626,7 @@ section.comment {
     }
 }
 
-.profilepart, .awardpart {
+.awardpart {
     width: 100%;
 }
 
@@ -1635,16 +1635,21 @@ section.comment {
 }
 
 @media only screen and (min-width: 768px) {
-    .profilepart, .awardpart {
+    .awardpart {
         width: 50%;
         float: left;
     }
 }
 
 @media only screen and (min-width: 1024px) {
-    .profilepart, .awardpart {
+    .awardpart {
         width: 100%;
     }
+}
+
+#profile-title {
+    font-size: 1.8em;
+    font-weight: 300;
 }
 
 .asidetitle {
@@ -1696,13 +1701,13 @@ section.comment {
     color: #2073a4
 }
 
-.tagslist {
+.profilepart, .tagslist {
     width: 90%;
     margin: 1em auto;
 }
 
 @media only screen and (min-width: 768px) {
-    .tagslist {
+    .profilepart, .tagslist {
         width: 45%;
         float: left;
         margin: 0 2%;
@@ -1710,7 +1715,7 @@ section.comment {
 }
 
 @media only screen and (min-width: 1024px) {
-    .tagslist {
+    .profilepart, .tagslist {
         width: 90%;
         float: none;
         margin: 1em auto;
