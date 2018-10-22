@@ -30,6 +30,7 @@ pygmentsUseClasses = true
   LinkIn = "coderzh"
   Imglogo = "img/logo.png"
   AuthorImg = "img/logo.png"
+  Favicon = "favicon.ico"
   DateFormat = "2006-01-02 15:04"
   MonthFormat = "2006年01月"
   FancyBox = true
